@@ -9,7 +9,17 @@ object Main {
 
     import looping.Loop
 
-    Loop.code
+    //Loop.code
+
+    import functions.FunctionsExample
+    import functions._
+
+    //FunctionsExample.code
+    //HighOrderFunctions.code
+   // Compostions.code
+    //AnanymousFunctions.code
+    FunCurrying.code
+
 
     println(s"${"=" * 10}END of the main${"=" * 10}")
 
