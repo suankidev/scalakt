@@ -1,6 +1,6 @@
 package init
 
-object BasicTest {
+object MatchCase {
   val test = check(0)
   println(test)
   //pattern matching example one

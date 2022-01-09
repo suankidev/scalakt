@@ -31,7 +31,6 @@ object Loop {
      * It does not work like imperative loop.
      */
 
-
     val myVal = for (i <- 1 to 100) yield i
 
     print(myVal)

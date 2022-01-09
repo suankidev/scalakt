@@ -32,6 +32,30 @@ object HighOrderFunctions {
 
     fun(getDouble, 2 to 10)
 
+
+
+    def closedTerm(freevariable: Int):Int=>Int= {
+      def openTerm(boundvariable:Int) :Int={
+        freevariable+boundvariable
+      }
+
+      openTerm        //returning a function
+    }
+
+
+    println(closedTerm(freevariable=10)(2)) //12
+
+
+
+
+
+
+
+
+
+
+
+
   }
 
 }
