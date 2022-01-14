@@ -1,5 +1,8 @@
 package functions
 
+import java.text.SimpleDateFormat
+import java.util.Date
+
 /**
  * it is a technique of transforming
  * a function that takes multiple arguments into a function that takes a single argument
@@ -63,9 +66,19 @@ object FunCurrying {
 
 
 
+    val date = new Date();
+    val formatter = new SimpleDateFormat("dd/MM/yyyy HH:mm:SS");
+    val strDate = formatter.format(date);
 
+    // def printmsg(d: String, msg: String): Unit = println(s"${d}->${msg}")
+    def printmsg1(d: String, msg: String): Unit = println(s"${d}->${msg}")
+
+    //printmsg(strDate,"first message!")
+
+    val partialfun=printmsg1(strDate:String,_:String)
+
+    partialfun("this")
 
   }
-
 
 }

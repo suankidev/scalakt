@@ -9,7 +9,7 @@ object Main {
     import looping._
     //Loop.code
 
-    TailRecursion.code
+   // TailRecursion.code
 
     import functions.FunctionsExample
     import functions._

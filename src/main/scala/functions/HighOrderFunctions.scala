@@ -42,7 +42,6 @@ object HighOrderFunctions {
       openTerm        //returning a function
     }
 
-
     println(closedTerm(freevariable=10)(2)) //12
 
 
